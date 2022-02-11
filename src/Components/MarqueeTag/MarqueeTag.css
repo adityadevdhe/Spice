@@ -1,0 +1,23 @@
+
+.parall{
+    margin-top: 2vh;
+    height: 500px;
+}
+.container{
+    margin-top: 20vh;
+    font-size: 100px;
+    
+    margin-right: 10px;
+}
+
+@media (max-width:400px){
+    .parall{
+        height: 300px;
+        width: 100%;
+    }
+    .container{
+        font-size: 50px;
+        
+    }
+    
+}

@@ -1,0 +1,208 @@
+.contact{
+    background-color: #fff;
+    
+}
+.name{
+    margin-left: 7vh;
+}
+h1{
+    font-size: 45px;
+    padding: 0;
+    margin-bottom: 1%;
+    text-align: left;
+    margin-top: 5vh;
+
+    font-weight: 700px;
+    color: green;
+    
+    
+}
+.line{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-left: 0.5vh;
+    margin-top: 0;
+    
+}
+.line1{
+    display: flex;
+    width: 450px;
+    height: 30px;
+
+}
+
+.l2{
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+}
+.contain{
+    display: flex;
+}
+.left{
+    flex:0.65;
+}
+.right{
+    flex: 0.35;
+}
+.Container{
+    border-radius: 26px;
+}
+.form1{
+   display: flex;
+   flex-direction: column;
+}
+.gr1{
+    flex: 0.3;
+}
+.gr2{
+    flex: 0.3;
+}
+.form1 input[type="text"],.form1 input[type="text"],.form1 input[type="email"],.form1 input[type="tel"]{
+    border: 0;
+	margin: 20px auto;
+    font-size: 1rem;
+	margin: 5px auto;
+	text-align: left;
+	background:none;
+	border: 1px solid #000;
+	padding: 12px 10px;
+	width: 400px;
+	outline: none;
+	color: black;
+	border-radius: 20px;
+	
+}
+.Message input[type="text"]{
+    width: 56rem;
+    height: 5rem;
+    text-align: start;
+    border-radius: 30px;
+}
+p{
+    margin-left: 6vh;
+    margin-top: -1vh;
+    margin: -1vh 4vh 1vh 7vh;
+    text-align: left;
+}
+.gr1{
+    display: flex;
+}
+.First{
+    flex: 0.5;
+    margin: 0;
+}
+.Last{
+    flex: 0.5;
+}
+.gr2{
+    display: flex;
+}
+.Phone{
+    flex: 0.5;
+}
+.Mail{
+    flex: 0.5;
+}
+.Message{
+    width:1000px;
+}
+
+.Submit input[type="submit"]{
+	border: 0;
+	display: block;
+	margin:20px auto;
+	text-align: center;
+	background: green;
+	border: 1px #000;
+	padding: 12px 40px;
+	outline: none;
+	color: white;
+    font-size: 15px;
+	border-radius: 20px;
+	transition: 0.25s;
+	cursor: pointer;
+    text-decoration: none;
+}
+.Submit input[type="submit"]:hover{
+	opacity: 0.8;
+    size: 110%;
+}
+
+.add{
+    display: flexbox;
+}
+.icon{
+    flex: 0.1;
+    height: 1rem;
+    width: 1rem;
+    margin-top: 1rem;
+    margin-left: 0rem;
+}
+.head{
+    margin-top: 5vh;
+    text-align: left;
+    color: green;
+    font-size: 20px;
+    font-weight: 800px;
+    
+}
+.data{
+    flex: 0.9;
+   
+    margin: -2rem 1rem 0rem -2rem ;
+}
+.data1{
+    flex: 0.9;
+    margin: -20px 1rem 0 -2rem;
+}
+
+.head1{
+   margin-top: 0;
+   text-align: left;
+   color: green;
+   font-size: 20px;
+   font-weight: 800px;
+}
+@media(max-width:400px){
+    .contain{
+        flex-direction: column;
+    }
+    .gr1{
+        flex-direction: column;
+    }
+    .gr2{
+        flex-direction: column;
+    }
+    .form1 input[type="text"],.form1 input[type="text"],.form1 input[type="email"],.form1 input[type="tel"]{
+        align-items: center;
+        margin-left: 1vh;
+        width: 90%;
+    }
+    .Message{
+        width: 100%;
+    }
+    .head{
+        margin-left: 10%;
+    }
+    .head1{
+        margin-left: 10%;
+    }
+    .data{
+        margin-top: -6%;
+    }
+    .icon{
+        margin-top: 2%;
+    }
+    .name{
+        margin-left: 4vh;
+    }
+    .line1{
+        width: 21rem;
+        margin-left: 2vh;
+    }
+    .l2{
+        height: 1px;
+    }
+}
