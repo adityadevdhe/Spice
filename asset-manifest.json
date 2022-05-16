@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Spice/static/css/main.60a5bbe7.css",
+    "main.js": "/Spice/static/js/main.1f6837aa.js",
+    "static/js/787.4e27bd70.chunk.js": "/Spice/static/js/787.4e27bd70.chunk.js",
+    "index.html": "/Spice/index.html",
+    "main.60a5bbe7.css.map": "/Spice/static/css/main.60a5bbe7.css.map",
+    "main.1f6837aa.js.map": "/Spice/static/js/main.1f6837aa.js.map",
+    "787.4e27bd70.chunk.js.map": "/Spice/static/js/787.4e27bd70.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60a5bbe7.css",
+    "static/js/main.1f6837aa.js"
+  ]
+}
